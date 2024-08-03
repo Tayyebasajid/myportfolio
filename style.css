@@ -1,0 +1,300 @@
+* 
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.container{
+    display: flex;
+
+}
+.logo{
+    position: relative;
+    font-size: 30px;
+    color: #f2309e;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 0 0 20px #4902fd;
+
+}
+.navbar a{
+    display:inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #f2309e;
+    text-shadow: 0 0 10px #fff;
+}
+.home{
+    position: relative;
+    width:100%;
+    justify-content: space-between;
+    height:100vh;
+    background: url(background.avif) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0 ;
+    flex-wrap: wrap;
+}
+img{
+height: 70vh;
+border-radius: 50%;
+border: 2px solid #4902fd;
+box-shadow: 0 0 60px #4902fd;
+transition: transform .5s; 
+
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.text h3 , .content .sub-heading , .content .heading-1{
+    font-size: 32px ;
+    font-weight: 700;
+
+}
+.content .sub-heading , .content .heading-1{
+    text-shadow:0 0 10px #f2309e ;
+}
+.text h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-shadow:0 0 10px #f2309e ;
+
+    }
+    .text h1:hover{
+        color: #f2309e;
+        transition: .5s;
+        letter-spacing: .1rem;
+        text-shadow:0 0 10px #71c9f5 ;
+    }
+    .text p , .about-para{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .home-sec a{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height:40px;
+        background: transparent;
+        border:2px solid #f2309e;
+        border-radius: 50%;
+        font-size:20px;
+        color: #f2309e;
+        text-decoration: none;
+        margin: 30px 15px 30px 0;
+    }
+    .home-sec a:hover{
+        background: #f2309e;
+        color: #fff;
+        box-shadow: 0 0 20px #fff;
+    }
+    .btn-box{
+        display: inline-block;
+        padding: 12px 28px;
+        background-color: #f2309e;
+        border-radius: 30px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 400;
+        color: #fff;
+    }
+    .btn-box:hover{
+        background: #fff;
+        color:#f2309e;
+        box-shadow: 0 0 20px #fff;
+    
+    }
+    .about{
+        background: url(istockphoto-1313135030-170667a.webp);
+        background-size:cover ;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        
+
+    }
+    .about .row{
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: 70px 10% 0 ;
+
+    }
+    .content{
+        padding: 70px 10% 0 ;
+    }
+    .content .heading{
+        font-size: 56px;
+        font-weight: 700;
+        text-shadow:0 0 10px #4902fd ;
+    }
+    .skill{
+        background: url(istockphoto-519828718-170667a.webp);
+        background-size:cover ;
+        height: 100vh;
+        width: 100%;
+        display: inline-block;
+    }
+ .title h2{
+color: #f2309e;
+font-size: 75px;
+margin: 50px auto;
+text-align: center;
+   }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    color: #ededed;
+
+  }
+  .card{
+    height: 450px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #f2309e;
+    border-radius: 20px;
+    margin: 15px ;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid #f2309e;
+    transition: .4s ease-in;
+
+  }
+  .card:hover{
+    border-color: #4902fd;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #4902fd;
+
+  }
+
+  .card i{
+    font-size: 50px;
+    display:block;
+    text-align: center;
+    margin: 20px 0px;
+    color: #4902fd ;
+  }
+h5{
+    color:#fff;
+    font-size: 23px;
+    margin-bottom:15px ;  
+}
+.pra p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 27px;
+    margin-bottom: 25px ;
+}
+.card .btn{
+    background-color: #fff;
+    color: #f2309e ;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px ;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .btn:hover{
+    background-color: transparent;
+    border: 2px solid #4902fd;
+    color: #4902fd;
+}
+.contact{
+    background:url(istockphoto-1313135030-170667a.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: inline-block;
+}
+ .heading-con h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow:0 0 10px #f2309e ;
+    text-align: center;
+    margin: 50px auto;
+}
+.heading-con h1 span{
+color: #f2309e;
+text-shadow:0 0 10px #ededed ;
+
+}
+.contact form{
+    max-width: 50rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: .7rem;
+    font-size: 1.2rem;
+    color: #f2309e;
+    background-color: #fff;
+    border-radius: .8rem;
+    margin: .7rem 0;
+    border: transparent;
+}
+.contact form .input-box input:focus,
+.contact form textarea:focus{
+    border: .2rem solid #f2309e;
+
+}
+.contact form .input-box input{
+    width: 49%;
+}
+.contact form textarea{
+    resize: none;
+}
+.contact form .btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #f2309e;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    border: transparent;
+}
+.contact form .btn:hover{
+    background: #fff;
+    color:#f2309e;
+    box-shadow: 0 0 20px #fff;
+
+}
